@@ -6,6 +6,11 @@ import iWelcome from '../components/iWelcome'
 import iUser from '../views/user/iUser'
 import iRight from '../views/power/iRight'
 import iRole from '../views/power/iRole'
+import iGoods from '../views/goods/iGoods'
+import iParams from '../views/goods/iParams'
+import iCategories from '../views/goods/iCategories'
+import iOrders from '../views/order/iOrders'
+import iReports from '../views/reports/iReports'
 Vue.use(VueRouter)
 
 const routes = [
@@ -39,6 +44,26 @@ const routes = [
       {
         path: '/roles',
         component: iRole,
+      },
+      {
+        path: '/goods',
+        component: iGoods,
+      },
+      {
+        path: '/params',
+        component: iParams,
+      },
+      {
+        path: '/categories',
+        component: iCategories,
+      },
+      {
+        path: '/orders',
+        component: iOrders,
+      },
+      {
+        path: '/reports',
+        component: iReports,
       },
     ],
   },
