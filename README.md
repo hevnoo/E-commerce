@@ -1,5 +1,10 @@
 # imall
-
+```
+-----
+Vue+element-ui实现前后端分离的电商后台管理系统，
+mysql数据库，
+用户名：admin；密码：123456
+```
 ## Project setup
 ```
 npm install
@@ -21,4 +26,4 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
